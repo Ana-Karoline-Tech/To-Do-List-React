@@ -12,9 +12,7 @@ Um aplicativo de lista de tarefas moderno e intuitivo desenvolvido com **React**
 
 ## 🎨 Demonstração
 
-![Demonstração das Funcionalidades](https://via.placeholder.com/800x600?text=GIF+da+Demonstra%C3%A7%C3%A3o+aqui)
-
-> *Adicione seu GIF aqui substituindo a URL acima*
+<img width="1920" height="872" alt="animacao-to-do-list_001" src="https://github.com/user-attachments/assets/c6a0cd69-bc79-436e-b6c0-50c4b3c72e27" />
 
 ## 🚀 Como Usar
 
