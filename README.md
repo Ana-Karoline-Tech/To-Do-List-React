@@ -38,10 +38,10 @@ npm install
 
 3. Inicie o servidor de desenvolvimento:
 ```bash
-npm start
+npm run dev
 ```
 
-4. Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver a aplicação rodando.
+4. Abra [http://localhost:5173](http://localhost:5173) no seu navegador para ver a aplicação rodando.
 
 ## 📁 Estrutura do Projeto
 
@@ -49,47 +49,64 @@ npm start
 To-Do-List-React/
 ├── src/
 │   ├── components/
-│   ├── App.js
+│   │   ├── Todo.jsx
+│   │   └── TodoForm.jsx
+│   ├── App.jsx
 │   ├── App.css
-│   └── index.js
+│   └── main.jsx
 ├── public/
+├── index.html
 ├── package.json
+├── vite.config.js
 └── README.md
 ```
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **React** - Biblioteca JavaScript para construção de interfaces
-- **CSS** - Estilização e layout responsivo
+- **React 19** - Biblioteca JavaScript para construção de interfaces
+- **Vite** - Build tool e servidor de desenvolvimento
+- **CSS3** - Estilização e layout responsivo
 - **HTML5** - Estrutura semântica
 
 ## 💻 Composição do Projeto
 
+### Linguagens
 - ![CSS Badge](https://img.shields.io/badge/CSS-73.3%25-blue) CSS - 73.3%
 - ![JavaScript Badge](https://img.shields.io/badge/JavaScript-25.5%25-yellow) JavaScript - 25.5%
 - ![HTML Badge](https://img.shields.io/badge/HTML-1.2%25-orange) HTML - 1.2%
+
+### Framework & Ferramentas
+- **React 19** - Biblioteca principal para construção da UI
+- **Vite** - Build tool otimizado para desenvolvimento rápido
+- **LocalStorage API** - Persistência de dados no navegador
 
 ## 📝 Scripts Disponíveis
 
 No diretório do projeto, você pode executar:
 
-### `npm start`
-Inicia o app em modo desenvolvimento na porta 3000.
+### `npm run dev`
+Inicia o app em modo desenvolvimento com Vite na porta 5173.
 
 ### `npm run build`
-Constrói o app para produção na pasta `build`.
+Constrói o app para produção na pasta `dist`.
 
-### `npm test`
-Executa os testes do aplicativo.
+### `npm run preview`
+Visualiza a build de produção localmente.
+
+### `npm run lint`
+Executa verificação de código com ESLint.
 
 ## 🎓 Aprendizado
 
 Este projeto é ótimo para aprender:
 - Fundamentos de React (componentes, estado, props)
 - Gerenciamento de estado com `useState`
+- Ciclo de vida com `useEffect`
 - Manipulação de eventos em React
+- Persistência de dados com LocalStorage
 - Estilização com CSS puro
 - Boas práticas de desenvolvimento
+- Bundling e otimização com Vite
 
 ## 🤝 Contribuições
 
